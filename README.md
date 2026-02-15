@@ -7,4 +7,5 @@ If you edit a item in any slot and press "Save", the new item will be put into t
 /seestorage is a normal container preview command, it will be possible to change item locations soon.
 More features to be added in the near future.
 
-The mod REQUIRES Java 25 and Fabric version 0.18.4+.
+The mod requires Java 21+ and Fabric Loader 0.18.1+.
+The mod will be updated to almost every version that changes something in NBT.
