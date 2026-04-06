@@ -1,0 +1,32 @@
+{
+    "required": true,
+    "package": "com.trusted.systemnbteditor.mixin",
+    "refmap": "system_nbt_editor.refmap.json",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "InventoryScreenMixin",
+        "DrawContextMixin",
+        "ScreenMixin",
+        "TranslatableTextMixin",
+        "TranslatableTextContentAccessor",
+        "EntityLimitMixin",
+        "ParticleLimitMixin",
+        "ItemAntiCrashMixin",
+        "ChatSanityMixin",
+        "OtherAntiCrashMixin",
+        "BossBarHudMixin",
+        "CommandBlockScreenMixin",
+        "CommandAccessor",
+        "EntityAntiCrashMixin",
+        "HandledScreenMixin",
+        "EnchantmentMixin",
+        "SlotMixin",
+        "StringNbtReaderMixin",
+        "TranslatableTextMixin",
+        "TooltipScalingMixin",
+        "ConnectionMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

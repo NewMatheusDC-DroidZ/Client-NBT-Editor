@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "system_nbt_editor",
+  "version": "1.2.0",
+  "accessWidener": "system_nbt_editor.accesswidener",
+  "name": "System NBT Editor",
+  "description": "All-in-one NBT Technical Utiltiy Micecraft tool for 1.21.11",
+  "authors": [
+    "TrustedSystem"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/systemnbteditor/",
+    "sources": "https://github.com/TrustedSystem/System-NBT-Editor/"
+  },
+  "license": "CC0-1.0",
+  "icon": "cnbte.icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.trusted.systemnbteditor.SystemNbtEditorMod"
+    ]
+  },
+  "mixins": [
+    "system_nbt_editor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
