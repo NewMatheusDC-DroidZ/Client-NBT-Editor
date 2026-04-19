@@ -1,5 +1,5 @@
-# Client-NBT-Editor
-A simple JSON Text NBT editor I made mostly via Antigravity, works for 1.21.11 Minecraft for now. 
+# SysetemNBTEditor
+An advanced NBT Utility tool with unique features in mind. 
 
 There are 2 commands in the mod:
 /editnbt - it opens a notepad-like GUI, with the NBT data displayed in JSON text. To see how a item looks like, press the "Preview" button, and click "Save" to save changes after editing the item.
@@ -9,3 +9,4 @@ More features to be added in the near future.
 
 The mod requires Java 21+ and Fabric Loader 0.18.1+.
 The mod will be updated to almost every version that changes something in NBT.
+This mod HAS mostly been made with the help of AI.
